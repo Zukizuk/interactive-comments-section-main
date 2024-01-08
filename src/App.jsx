@@ -2,7 +2,14 @@ import "./App.scss";
 
 function App() {
   return (
-   <>Hello</>
+   <>
+   <main>
+    <div className="comment__container">
+      <div className="profile__time__box"></div>
+      <div className="content"></div>
+    </div>
+   </main>
+   </>
   );
 }
 
